@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.Room
 import com.example.rateconverter.databinding.FragmentHomeBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
@@ -16,6 +17,7 @@ import kotlinx.coroutines.withContext
 import com.example.rateconverter.json.MergeConverter
 import com.example.rateconverter.httputil.HttpUtil
 import com.example.rateconverter.configuration.AppConfig
+import com.example.rateconverter.data.AppDatabase
 import com.example.rateconverter.json.CurrencyConverter
 import com.example.rateconverter.json.RateConverter
 
@@ -83,10 +85,25 @@ class HomeFragment : Fragment() {
             //val convertRates = RateConverter.convertRates(getRatesFromApi())
             //val convertCurrencies = CurrencyConverter.convertCurrency(getCurrenciesFromApi())
             val merge = MergeConverter.mergeApiData(getCurrenciesFromApi(), getRatesFromApi())
+
+            val CONTEXTE = requireContext()
+            val db = Room.databaseBuilder(
+                CONTEXTE,
+                AppDatabase::class.java,
+                "rates.db"
+            ).build()
+            // Récupération d'un DAO
+            val rateDao = db.rateDao()
+            // Insertion des données
+            rateDao.insertAll(merge)
+
             merge
         }
+
+
         val recyclerViewRate: RecyclerView = binding.recyclerViewRate
         val adapter = RateAdapter(rates)
+
         recyclerViewRate.adapter = adapter
     }
 }

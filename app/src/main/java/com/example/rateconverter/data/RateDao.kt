@@ -21,4 +21,7 @@ interface RateDao {
 
     @Update
     suspend fun update(rate: Rate)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertAll(rates: List<Rate>)
 }
