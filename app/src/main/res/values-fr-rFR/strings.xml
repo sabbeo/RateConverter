@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Ouvrir la page de navigation</string>
+    <string name="navigation_drawer_close">Fremer la page de navigation</string>
+    <string name="nav_header_desc">entête de navigation</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_about">A propos</string>
+</resources>

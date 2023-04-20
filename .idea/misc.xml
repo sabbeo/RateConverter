@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.2135" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/drawable/ic_menu_camera.xml" value="0.14" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.14" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.14" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/drawable/side_nav_bar.xml" value="0.14" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/font/capriola.xml" value="0.38666666666666666" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/activity_main.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/app_bar_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/content_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/fragment_about.xml" value="0.33" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/fragment_gallery.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/fragment_settings.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/item_rate.xml" value="0.5" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/layout/nav_header_main.xml" value="0.33" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/menu/main.xml" value="0.33" />
+        <entry key="..\:/Users/sabeo/AndroidStudioProjects/RateConverter/app/src/main/res/xml/root_preferences.xml" value="0.1762917933130699" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
